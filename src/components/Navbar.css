@@ -26,33 +26,33 @@ h1 {
 }
 
 .topnav {
-  grid-column: 3/4;
+  grid-column: 3/5;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
-.topnav ul {
-  width: 90%;
+.navbar{
+    width: 60%;
+    grid-column: 3/4;
+}
+
+.navbar ul {
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  margin: 0;
-  padding: 0;
   text-transform: uppercase;
 }
 
-.topnav li,
-a {
+.signin {
+    
+    grid-column: 4/5;
+    text-align: center;
+  }
+
+.topnav li,a {
   text-decoration: none;
   list-style: none;
-}
-
-.signin {
-  grid-column: 4/5;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .hamburger-menu {
@@ -72,9 +72,41 @@ a {
     margin-left: 5vw;
   }
 
-  .topnav,
-  .signin {
-    display: none;
+.topnav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+    top: 4.2rem;
+    right: -5000px;
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(216, 212, 212);
+    padding: 40px 0 0 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.topnav.active{
+    right: 0;
+}
+
+.navbar ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-transform: uppercase;
+    margin-bottom: 30%;
+  }
+
+  .navbar li{
+    margin-bottom: 10%;
+  }
+
+  .signin{
+    margin: 0 0 0 40px;
   }
 
   .hamburger-menu {
@@ -86,43 +118,4 @@ a {
     font-size: 1.5rem;
     grid-row: 1/2;
   }
-
-  .mobile-topnav {
-    grid-column: 2/4;
-    position: relative;
-    z-index: 99;
-  }
-  
-  .mobile-topnav {
-    background-color: white;
-    height: 20rem;
-    display: grid;
-    grid-column: 2/5;
-    align-items: center;
-    padding-left: 3rem;
-    transition: all 2s linear;
-    transform-origin: top;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-  }
-  
-  .mobile-topnav ul {
-    height: 20rem;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: start;
-  }
-  
-  .mobile-topnav ul li:first-child {
-    transition-delay: 0.2s;
-  }
-
-  /* .signin{
-        grid-row: 1/2;
-        grid-column: 3/5;
-        justify-items: end;
-        align-items: center;
-        transition: all 2s linear;
-  } */
 }
