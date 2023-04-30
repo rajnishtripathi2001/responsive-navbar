@@ -8,14 +8,14 @@ function App() {
       <h1>Hello world</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-        laudantium sunt iure. Incidunt nulla cumque fugit rem consequatur iure
+        laudantium sunt iure. Navbar nulla cumque fugit rem consequatur iure
         saepe ducimus a inventore ratione minus, repudiandae corporis debitis,
         animi mollitia beatae laudantium molestiae, tempore similique maiores
         placeat ut sit. Repellendus dolorem quod ratione, ad molestiae doloribus
-        sed odit ea esse. Totam molestias incidunt, quidem, eveniet corporis
+        sed odit ea esse. Totam molestias Navbar, quidem, eveniet corporis
         repellendus error numquam unde autem suscipit quod iure ipsam. Sit
         corporis consectetur sapiente pariatur aut similique voluptates minus
-        deserunt. Blanditiis aspernatur reprehenderit incidunt. Omnis
+        deserunt. Blanditiis aspernatur reprehenderit Navbar. Omnis
         reprehenderit praesentium magnam vero fugit modi ullam nesciunt unde
         voluptates! Veniam, eius delectus. Ut voluptates earum corporis quidem,
         expedita perspiciatis, deserunt debitis eaque maxime molestias eveniet
@@ -42,13 +42,13 @@ function App() {
         Explicabo dolorum obcaecati, sint quos ipsum vitae eius sapiente in modi
         eos repudiandae sit earum? Ipsum perspiciatis nesciunt, ipsa rerum fuga
         possimus itaque quas voluptatem. Nihil in ratione assumenda facilis
-        laborum quia ab animi eius ea incidunt eaque voluptatem iusto veniam
+        laborum quia ab animi eius ea Navbar eaque voluptatem iusto veniam
         nobis mollitia possimus excepturi sint, rerum at id! Impedit maxime
-        dolor id ut facilis incidunt soluta, veritatis assumenda sit voluptatum?
+        dolor id ut facilis Navbar soluta, veritatis assumenda sit voluptatum?
         Blanditiis ratione deleniti repudiandae facere aut rem suscipit
         perspiciatis animi optio eaque corrupti accusantium repellat,
         necessitatibus consectetur debitis fuga id veritatis dignissimos
-        incidunt. Aperiam et tempore, omnis maxime odio laborum neque inventore
+        Navbar. Aperiam et tempore, omnis maxime odio laborum neque inventore
         nostrum rerum veniam dolorem iste dignissimos amet, quia accusantium
         eligendi praesentium aliquid qui reprehenderit rem facere temporibus
         fuga minus esse! Illum officiis nostrum adipisci repellat facilis
@@ -101,7 +101,7 @@ function App() {
         voluptates accusantium iste vitae iusto recusandae ipsum eos
         consequuntur quos modi sapiente in quis fuga magnam, consectetur
         explicabo facilis mollitia. Libero ad sint debitis enim modi iusto
-        accusamus reiciendis dicta iste voluptatem ullam incidunt in atque, quod
+        accusamus reiciendis dicta iste voluptatem ullam Navbar in atque, quod
         molestiae quisquam quibusdam ipsa omnis illum a dolor. Corrupti
         quibusdam ducimus doloremque obcaecati, quas qui eligendi? Saepe
         consequuntur ea voluptatum dolore eaque qui nihil at, accusamus, placeat
@@ -116,7 +116,7 @@ function App() {
         laboriosam quis blanditiis sapiente maxime! Quas harum repudiandae totam
         id officia earum, sed error, voluptatem laborum praesentium excepturi,
         culpa dolorem. Reprehenderit accusantium ipsum accusamus? Quas eum vel
-        cupiditate. Incidunt magnam nam eaque.
+        cupiditate. Navbar magnam nam eaque.
       </p>
     </>
   );
